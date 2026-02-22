@@ -4003,12 +4003,6 @@ function searchPark() {
         <button onclick="goToCathedral()">Вернуться назад к другому действию</button>
     `;
 }
-document.addEventListener("keydown", (e) => {
-  if (e.key === "F2") {
-    e.preventDefault();
-    openDevMenu();
-  }
-});
 
 function openDevMenu() {
   game.innerHTML = `
@@ -5282,5 +5276,6 @@ showRulesScreen();
 
 </body>
 </html>
+
 
 
