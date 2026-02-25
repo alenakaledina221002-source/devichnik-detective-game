@@ -4560,7 +4560,7 @@ function submitVitaDescription() {
     ` : ``}
 
     <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap; justify-content:center;">
-      ${allowNext ? `<button type="button" onclick="startOfficerQuestionnaire()">Дальше</button>` : ``}
+      ${allowNext ? `<button type="button" onclick="goToVitaHappyEnd()">Дальше</button>` : ``}
       <button onclick="startInterrogation()" style="opacity:0.85;">
         ${allowNext ? "Изменить ответы" : "Попробовать ещё раз"}
       </button>
@@ -5284,6 +5284,7 @@ showRulesScreen();
 
 </body>
 </html>
+
 
 
 
